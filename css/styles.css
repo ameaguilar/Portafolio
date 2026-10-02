@@ -5,6 +5,13 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*logo*/
+.logo {
+    object-fit: contain;
+    width: 80px;
+    height: 120px;
+}
+
 /*Brand Name*/
 .brand-name {
     color: white;
@@ -14,3 +21,31 @@
 }
 
 /*Elementos de Menú*/
+
+/*Hover*/
+.navbar .nav-link:hover{
+    color:aquamarine;
+    transform: scale3d();
+}
+
+/*HEADER / HERO*/
+.hero {
+    padding: 100px 0;
+}
+
+.hero-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #000;
+}
