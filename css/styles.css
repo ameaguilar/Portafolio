@@ -1,0 +1,16 @@
+/*NAVBAR*/
+
+/*Fuente*/
+.navbar {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Brand Name*/
+.brand-name {
+    color: white;
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+/*Elementos de Menú*/
