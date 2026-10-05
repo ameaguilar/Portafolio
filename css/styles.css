@@ -37,7 +37,7 @@
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 50%;  
 }
 
 .social-links {
@@ -48,4 +48,244 @@
     font-size: 30px;
     margin: 0 10px;
     color: #000;
+}
+
+
+/* INICIO */
+
+.about {
+    padding: 80px 0;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/*SECCIÓN DE PROYECTOS */
+
+.projects {
+    padding: 80px 0;
+}
+
+/* Espacio entre las tarjetas */
+.projects .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+
+.projects .card {
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+
+    /* Sombra muy sutil */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    /* Transición para el efecto hover */
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Efecto al pasar el mouse */
+.projects .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* IMÁGENES */
+
+.projects .card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+
+    /* Transición suave */
+    transition: transform 0.3s ease;
+}
+
+/* Pequeño zoom en la imagen */
+.projects .card:hover .card-img-top {
+    transform: scale(1.03);
+}
+
+/* CONTENIDO */
+
+.projects .card-body {
+    padding: 25px;
+}
+
+/* Título */
+.projects .card-title {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Descripción */
+.projects .card-text {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* BOTÓN */
+
+.projects .btn {
+    border-radius: 6px;
+    padding: 9px 20px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Pequeño efecto del botón */
+.projects .btn:hover {
+    transform: translateY(-2px);
+}
+
+
+
+/* SECCIÓN CONTACTO  */
+
+.contacto {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+/* Información superior */
+
+.contacto-info {
+    margin-bottom: 35px;
+}
+
+.contacto-info h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #222;
+}
+
+.contacto-info p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contacto-info h3 {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+}
+
+
+/* CARD DEL FORMULARIO */
+
+.contacto-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contacto-card .card-body {
+    padding: 35px;
+}
+
+
+/*CAMPOS DEL FORMULARIO */
+
+.contacto .form-control {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contacto .form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.15);
+}
+
+.contacto .form-label {
+    font-weight: 500;
+    color: #333;
+}
+
+
+/*BOTÓN */
+
+.contacto .btn {
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contacto .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.2);
+}
+
+
+
+/*Redes Sociales*/
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.red-social {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #ffffff;
+    color: #333;
+
+    text-decoration: none;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s ease,
+                color 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.red-social i {
+    font-size: 1.3rem;
+}
+
+.red-social:hover {
+    transform: translateY(-3px);
+    color: #0d6efd;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+
+
+.footer .footer-link {
+    display: inline-block;
+
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin-left: 25px;
+
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer .footer-link:hover {
+    color: aquamarine;
+    transform: scale(1.05);
 }

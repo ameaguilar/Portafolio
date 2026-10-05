@@ -64,8 +64,7 @@
                 <img 
                     src="./images/fotoperfil.jpeg" 
                     alt="Fotografía de Angélica Amellali Mercado Aguilar"
-                    class="hero-img"
-                >
+                    class="hero-img">
 
                 <!-- Redes sociales -->
                 <div class="social-links">
@@ -104,7 +103,338 @@
   
 
 
+    <!-- Sección Acerca de mí -->
+<section id="acerca" class="about">
+    <div class="container">
 
+        <!-- Título -->
+        <div class="row">
+            <div class="col-12">
+                <h2>Acerca de mí</h2>
+            </div>
+        </div>
+
+        <!-- Contenido: imagen + texto -->
+        <div class="row align-items-center">
+
+            <!-- Columna izquierda: imagen -->
+            <div class="col-lg-5">
+                <img 
+                    src="./images/estudios.jpg" 
+                    alt="Angélica durante su formación profesional"
+                    class="about-img"
+                >
+            </div>
+
+            <!-- Columna derecha: texto -->
+            <div class="col-lg-7">
+
+                <h3>Estudios</h3>
+
+                <p>
+                    Soy licenciada en matemáticas. Mis principales áreas de interes en la carrera corresponden a:
+                    Probabilidad y Estadística, Investigación de Operaciones, Programación Lineal. Tuve la oportunidad de participar
+                    activamente en eventos de Divulgación. De igual manera tengo un gran acercamiento a la Enseñanza de las Matemáticas. 
+                </p>
+
+                <p>
+                    Durante mi formación he trabajado con diferentes
+                    tecnologías y herramientas que me han permitido
+                    fortalecer mis conocimientos en desarrollo de software. Mi stack principal:
+                    JS | HTML | CSS | BOOTSTRAP | JAVA | 
+                </p>
+
+                <h3>Certificaciones</h3>
+
+                <p>
+                    He complementado mi formación con cursos y certificaciones
+                    orientados al desarrollo web, programación y tecnologías
+                    digitales. 
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- Sección Proyectos -->
+<section id="portafolio" class="proyectos">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12">
+                <h2>Proyectos</h2>
+            </div>
+        </div>
+
+        <!-- Carrusel -->
+        <div id="proyectosCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <button 
+                    type="button"
+                    data-bs-target="#proyectosCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Proyecto 1">
+                </button>
+
+                <button 
+                    type="button"
+                    data-bs-target="#proyectosCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Proyecto 2">
+                </button>
+
+                <button 
+                    type="button"
+                    data-bs-target="#proyectosCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Proyecto 3">
+                </button>
+            </div>
+
+        <!-- Sección Proyectos -->
+<section id="portafolio" class="projects">
+    <div class="container">
+        <!-- Grid de proyectos -->
+        <div class="row">
+
+            <!-- Proyecto 1 -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <img 
+                        src="./images/proyecto1.jpg" 
+                        class="card-img-top" 
+                        alt="Proyecto 1"
+                    >
+
+                    <div class="card-body">
+                        <h3 class="card-title">Proyecto 1</h3>
+
+                        <p class="card-text">
+                            Descripción breve de mi primer proyecto
+                            y las tecnologías utilizadas.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <img 
+                        src="./images/proyecto2.jpg" 
+                        class="card-img-top" 
+                        alt="Proyecto 2"
+                    >
+
+                    <div class="card-body">
+                        <h3 class="card-title">Proyecto 2</h3>
+
+                        <p class="card-text">
+                            Descripción breve de mi segundo proyecto
+                            y las tecnologías utilizadas.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <img 
+                        src="./images/proyecto3.jpg" 
+                        class="card-img-top" 
+                        alt="Proyecto 3"
+                    >
+
+                    <div class="card-body">
+                        <h3 class="card-title">Proyecto 3</h3>
+
+                        <p class="card-text">
+                            Descripción breve de mi tercer proyecto
+                            y las tecnologías utilizadas.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>  <!-- Aquí termina sección proyectos -->
+
+
+
+<!-- Sección Contacto -->
+<section id="contact" class="contacto">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <!-- Información de contacto -->
+                <div class="contacto-info text-center">
+                    <h2>Contáctame</h2>
+                    <p>Si deseas ponerte en contacto conmigo, puedes escribirme a:</p>
+                    <h3>amellali.m.aguilar@gmail.com</h3>
+                </div>
+
+                <!-- Card del formulario -->
+                <div class="card contacto-card">
+
+                    <div class="card-body">
+
+                        <form>
+
+                            <!-- Nombre -->
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">
+                                    Nombre
+                                </label>
+
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="nombre" 
+                                    name="nombre"
+                                    placeholder="Ingresa tu nombre"
+                                    required
+                                >
+                            </div>
+
+                            <!-- Correo -->
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">
+                                    Correo electrónico
+                                </label>
+
+                                <input 
+                                    type="email" 
+                                    class="form-control" 
+                                    id="correo" 
+                                    name="correo"
+                                    placeholder="ejemplo@correo.com"
+                                    required
+                                >
+                            </div>
+
+                            <!-- Mensaje -->
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">
+                                    Mensaje
+                                </label>
+
+                                <textarea 
+                                    class="form-control" 
+                                    id="mensaje" 
+                                    name="mensaje"
+                                    rows="5"
+                                    placeholder="Escribe tu mensaje..."
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <!-- Botón -->
+                            <div class="text-center">
+                                <button 
+                                    type="submit" 
+                                    class="btn btn-primary"
+                                >
+                                    Enviar mensaje
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Redes sociales -->
+<div class="redes-sociales">
+
+    <a 
+        href="https://www.instagram.com/" 
+        target="_blank"
+        aria-label="Instagram"
+        class="red-social"
+    >
+        <i class="bi bi-instagram"></i>
+    </a>
+
+    <a 
+        href="https://www.threads.net/" 
+        target="_blank"
+        aria-label="Threads"
+        class="red-social"
+    >
+        <i class="bi bi-threads"></i>
+    </a>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-dark" data-bs-theme="dark">
+
+    <div class="container">
+
+        <div class="row align-items-center py-4">
+
+            <!-- Nombre / Copyright -->
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0 text-white">
+                    © 2026 Amellali Aguilar. Todos los derechos reservados.
+                </p>
+            </div>
+
+            <!-- Enlaces -->
+            <div class="col-md-6 text-center text-md-end">
+
+                <a href="#portafolio" class="footer-link">
+                    Proyectos
+                </a>
+
+                <a href="#contact" class="footer-link">
+                    Contacto
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
 
 
     
