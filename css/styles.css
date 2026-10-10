@@ -8,7 +8,7 @@
 /*logo*/
 .logo {
     object-fit: contain;
-    width: 80px;
+    width: 150px;
     height: 120px;
 }
 
@@ -118,6 +118,7 @@
 
 .projects .card-body {
     padding: 25px;
+
 }
 
 /* Título */
@@ -141,12 +142,22 @@
     border-radius: 6px;
     padding: 9px 20px;
     transition: background-color 0.2s ease, transform 0.2s ease;
+    
 }
 
 /* Pequeño efecto del botón */
 .projects .btn:hover {
     transform: translateY(-2px);
 }
+
+/* Botón centrado*/
+.projects .card-btn-container {
+    display: flex;
+    justify-content: center;  /* centra horizontalmente*/
+    align-items: center; /* centra verticalmente */
+}
+
+
 
 
 
@@ -269,8 +280,6 @@
     color: #0d6efd;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
 }
-
-
 
 
 
