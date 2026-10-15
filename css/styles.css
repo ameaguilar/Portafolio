@@ -66,6 +66,11 @@
 }
 
 
+/* Tipografía de acerca*/
+h1 {
+    font-family: 'JetBains Mono', monospace;
+}
+
 /*SECCIÓN DE PROYECTOS */
 
 .projects {
