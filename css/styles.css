@@ -1,3 +1,4 @@
+
 /*NAVBAR*/
 
 /*Fuente*/
@@ -282,19 +283,33 @@
 }
 
 
+/* FOOTER */
 
-
-.footer .footer-link {
-    display: inline-block;
-
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    margin-left: 25px;
-
-    transition: color 0.2s ease, transform 0.2s ease;
+.footer {
+width: 100%;
+background-color: #212529;
 }
 
-.footer .footer-link:hover {
-    color: aquamarine;
-    transform: scale(1.05);
+.footer .footer-link {
+display: inline-block;
+color: rgba(246, 238, 238, 0.7);
+text-decoration: none;
+margin-left: 25px;
+transition: color 0.2s ease, transform 0.2s ease;
+}
+
+
+
+@media (max-width: 767.98px) {
+.footer .footer-link {
+margin: 12px 8px 0;
+}
+}
+
+.footer-link{
+    color: #ffffff;
+}
+.footer-link:hover{
+    color:aquamarine;
+    transform: scale3d();
 }
